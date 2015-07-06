@@ -1,4 +1,4 @@
 To build:
   mvn package -DskipTests -Phadoop-2
   mvn install -DskipTests -Phadoop-2
-  mvn javadoc:aggregate -DskipTests -Phadoop-2
+  mvn javadoc:aggregate -DskipTests -Phadoop-2 -Dlinksource=true
