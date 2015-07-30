@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-shims" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-shims" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-shims-scheduler" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-shims-scheduler" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-shims-0.23" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-shims-0.23" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-shims-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-shims-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-hcatalog-streaming" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-hcatalog-streaming" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-webhcat-java-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-webhcat-java-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-webhcat" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-webhcat" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-hcatalog-pig-adapter" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-hcatalog-pig-adapter" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-hcatalog-server-extensions" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-hcatalog-server-extensions" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-hcatalog-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-hcatalog-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-service" />
+      </profile>
+      <profile default="false" name="Annotation profile for spark-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spark-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-testutils" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-testutils" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-metastore" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-metastore" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-serde" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-serde" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-exec" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-exec" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-hbase-handler" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-hbase-handler" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-jdbc" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-jdbc" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-hwi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-hwi" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-cli" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-cli" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-beeline" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-beeline" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-contrib" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-contrib" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-ant" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-ant" />
+      </profile>
+      <profile default="false" name="Annotation profile for hive-accumulo-handler" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hive-accumulo-handler" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hive" target="1.5" />
+      <module name="hive-accumulo-handler" target="1.7" />
+      <module name="hive-ant" target="1.7" />
+      <module name="hive-beeline" target="1.7" />
+      <module name="hive-cli" target="1.7" />
+      <module name="hive-common" target="1.7" />
+      <module name="hive-contrib" target="1.7" />
+      <module name="hive-exec" target="1.7" />
+      <module name="hive-hbase-handler" target="1.7" />
+      <module name="hive-hcatalog" target="1.5" />
+      <module name="hive-hcatalog-core" target="1.7" />
+      <module name="hive-hcatalog-pig-adapter" target="1.7" />
+      <module name="hive-hcatalog-server-extensions" target="1.7" />
+      <module name="hive-hcatalog-streaming" target="1.7" />
+      <module name="hive-hwi" target="1.7" />
+      <module name="hive-jdbc" target="1.7" />
+      <module name="hive-metastore" target="1.7" />
+      <module name="hive-odbc" target="1.5" />
+      <module name="hive-packaging" target="1.5" />
+      <module name="hive-serde" target="1.7" />
+      <module name="hive-service" target="1.7" />
+      <module name="hive-shims" target="1.7" />
+      <module name="hive-shims-0.23" target="1.7" />
+      <module name="hive-shims-aggregator" target="1.5" />
+      <module name="hive-shims-common" target="1.7" />
+      <module name="hive-shims-scheduler" target="1.7" />
+      <module name="hive-testutils" target="1.7" />
+      <module name="hive-webhcat" target="1.7" />
+      <module name="hive-webhcat-java-client" target="1.7" />
+      <module name="spark-client" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

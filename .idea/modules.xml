@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hive.iml" filepath="$PROJECT_DIR$/hive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accumulo-handler/hive-accumulo-handler.iml" filepath="$PROJECT_DIR$/accumulo-handler/hive-accumulo-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ant/hive-ant.iml" filepath="$PROJECT_DIR$/ant/hive-ant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beeline/hive-beeline.iml" filepath="$PROJECT_DIR$/beeline/hive-beeline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cli/hive-cli.iml" filepath="$PROJECT_DIR$/cli/hive-cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/hive-common.iml" filepath="$PROJECT_DIR$/common/hive-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contrib/hive-contrib.iml" filepath="$PROJECT_DIR$/contrib/hive-contrib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ql/hive-exec.iml" filepath="$PROJECT_DIR$/ql/hive-exec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase-handler/hive-hbase-handler.iml" filepath="$PROJECT_DIR$/hbase-handler/hive-hbase-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcatalog/hive-hcatalog.iml" filepath="$PROJECT_DIR$/hcatalog/hive-hcatalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcatalog/core/hive-hcatalog-core.iml" filepath="$PROJECT_DIR$/hcatalog/core/hive-hcatalog-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcatalog/hcatalog-pig-adapter/hive-hcatalog-pig-adapter.iml" filepath="$PROJECT_DIR$/hcatalog/hcatalog-pig-adapter/hive-hcatalog-pig-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcatalog/server-extensions/hive-hcatalog-server-extensions.iml" filepath="$PROJECT_DIR$/hcatalog/server-extensions/hive-hcatalog-server-extensions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcatalog/streaming/hive-hcatalog-streaming.iml" filepath="$PROJECT_DIR$/hcatalog/streaming/hive-hcatalog-streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hwi/hive-hwi.iml" filepath="$PROJECT_DIR$/hwi/hive-hwi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc/hive-jdbc.iml" filepath="$PROJECT_DIR$/jdbc/hive-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metastore/hive-metastore.iml" filepath="$PROJECT_DIR$/metastore/hive-metastore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odbc/hive-odbc.iml" filepath="$PROJECT_DIR$/odbc/hive-odbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packaging/hive-packaging.iml" filepath="$PROJECT_DIR$/packaging/hive-packaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serde/hive-serde.iml" filepath="$PROJECT_DIR$/serde/hive-serde.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/hive-service.iml" filepath="$PROJECT_DIR$/service/hive-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shims/aggregator/hive-shims.iml" filepath="$PROJECT_DIR$/shims/aggregator/hive-shims.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shims/0.23/hive-shims-0.23.iml" filepath="$PROJECT_DIR$/shims/0.23/hive-shims-0.23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shims/hive-shims-aggregator.iml" filepath="$PROJECT_DIR$/shims/hive-shims-aggregator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shims/common/hive-shims-common.iml" filepath="$PROJECT_DIR$/shims/common/hive-shims-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shims/scheduler/hive-shims-scheduler.iml" filepath="$PROJECT_DIR$/shims/scheduler/hive-shims-scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testutils/hive-testutils.iml" filepath="$PROJECT_DIR$/testutils/hive-testutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcatalog/webhcat/svr/hive-webhcat.iml" filepath="$PROJECT_DIR$/hcatalog/webhcat/svr/hive-webhcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcatalog/webhcat/java-client/hive-webhcat-java-client.iml" filepath="$PROJECT_DIR$/hcatalog/webhcat/java-client/hive-webhcat-java-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-client/spark-client.iml" filepath="$PROJECT_DIR$/spark-client/spark-client.iml" />
+    </modules>
+  </component>
+</project>
